@@ -700,7 +700,8 @@ function MobileHome() {
                 openGraph={{
                     url: "https://www.frenando.com",
                     title: "High End Portrait Photography Massachusetts| FERNANDO",
-                    description: "Lifestyle Portrait Photography in Massachusetts, California, and Texas",
+                    description:
+                        "Lifestyle Portrait Photography in Massachusetts, California, and Texas",
                     images: [
                         {
                             url: "/openg.png",
@@ -830,104 +831,114 @@ function MobileHome() {
                                         gap: "1vw",
                                         marginTop: "1.5vw",
                                         marginLeft: "2.8vw",
+                                        zIndex: 10,
                                     }}
                                 >
-                                    <div
-                                        style={{
-                                            display: "flex",
-                                            flexDirection: "row",
-                                            background: "#FF4C41",
-                                            paddingBlock: "0.3vw",
-                                            paddingInline: "2.4vw",
-                                            gap: "0.4vw",
-                                            alignItems: "center",
-                                            fontFamily: "Share Tech Mono",
-                                            fontSize: "1.2vw",
-                                            // background: "#fff",
-                                            // boxShadow: '4px 4px 0px 0px #FF4C41',
-                                            color: "black",
-                                            background: "#30ffa1",
-                                            // transform: preLoaded
-                                            //     ? "translateY(-100vh)"
-                                            //     : "translateY(0)",
-                                            // opacity: preLoaded
-                                            // ? "0%"
-                                            // : "100%",
-                                            // transition: `3s ease`,
-                                            // transitionDelay: `${d}s`,
-                                            opacity: preLoaded ? "0%" : "100%",
-                                            transition: "1s ease",
-                                        }}
-                                    >
-                                        <div>book me.</div>
-                                        <div style={{ height: "2vw" }}>
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                fill="none"
-                                                viewBox="0 0 24 24"
-                                                strokeWidth={1}
-                                                stroke="currentColor"
-                                                className="w-6 h-6"
-                                                style={{
-                                                    height: "100%",
-                                                }}
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                                                />
-                                            </svg>
+                                    <Link href={"/services"}>
+                                        <div
+                                            style={{
+                                                display: "flex",
+                                                flexDirection: "row",
+                                                background: "#FF4C41",
+                                                paddingBlock: "0.3vw",
+                                                paddingInline: "2.4vw",
+                                                gap: "0.4vw",
+                                                alignItems: "center",
+                                                fontFamily: "Share Tech Mono",
+                                                fontSize: "1.2vw",
+                                                // background: "#fff",
+                                                // boxShadow: '4px 4px 0px 0px #FF4C41',
+                                                color: "black",
+                                                background: "#30ffa1",
+                                                // transform: preLoaded
+                                                //     ? "translateY(-100vh)"
+                                                //     : "translateY(0)",
+                                                // opacity: preLoaded
+                                                // ? "0%"
+                                                // : "100%",
+                                                // transition: `3s ease`,
+                                                // transitionDelay: `${d}s`,
+                                                opacity: preLoaded
+                                                    ? "0%"
+                                                    : "100%",
+                                                transition: "1s ease",
+                                            }}
+                                        >
+                                            <div>book me.</div>
+                                            <div style={{ height: "2vw" }}>
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    fill="none"
+                                                    viewBox="0 0 24 24"
+                                                    strokeWidth={1}
+                                                    stroke="currentColor"
+                                                    className="w-6 h-6"
+                                                    style={{
+                                                        height: "100%",
+                                                    }}
+                                                >
+                                                    <path
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
+                                                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                                    />
+                                                </svg>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        style={{
-                                            display: "flex",
-                                            flexDirection: "row",
-                                            background: "#FF4C41",
-                                            paddingBlock: "0.3vw",
-                                            paddingInline: "2.4vw",
-                                            gap: "0.4vw",
-                                            alignItems: "center",
-                                            fontFamily: "Share Tech Mono",
-                                            fontSize: "1.2vw",
-                                            // boxShadow: '4px 4px 0px 0px #FF4C41',
-                                            // background: "#fff",
-                                            color: "black",
-                                            background: "#30ffa1",
-                                            // transform: preLoaded
-                                            //     ? "translateY(-100vh)"
-                                            //     : "translateY(0)",
-                                            // opacity: preLoaded
-                                            // ? "0%"
-                                            // : "100%",
-                                            // transition: `3s ease`,
-                                            // transitionDelay: `${d}s`,
-                                            opacity: preLoaded ? "0%" : "100%",
-                                            transition: "1s ease",
-                                        }}
-                                    >
-                                        <div>my story.</div>
-                                        <div style={{ height: "2vw" }}>
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                fill="none"
-                                                viewBox="0 0 24 24"
-                                                strokeWidth={1}
-                                                stroke="currentColor"
-                                                className="w-6 h-6"
-                                                style={{
-                                                    height: "100%",
-                                                }}
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                                                />
-                                            </svg>
+                                    </Link>
+
+                                    <Link href={"/services"}>
+                                        <div
+                                            style={{
+                                                display: "flex",
+                                                flexDirection: "row",
+                                                background: "#FF4C41",
+                                                paddingBlock: "0.3vw",
+                                                paddingInline: "2.4vw",
+                                                gap: "0.4vw",
+                                                alignItems: "center",
+                                                fontFamily: "Share Tech Mono",
+                                                fontSize: "1.2vw",
+                                                // boxShadow: '4px 4px 0px 0px #FF4C41',
+                                                // background: "#fff",
+                                                color: "black",
+                                                background: "#30ffa1",
+                                                // transform: preLoaded
+                                                //     ? "translateY(-100vh)"
+                                                //     : "translateY(0)",
+                                                // opacity: preLoaded
+                                                // ? "0%"
+                                                // : "100%",
+                                                // transition: `3s ease`,
+                                                // transitionDelay: `${d}s`,
+                                                opacity: preLoaded
+                                                    ? "0%"
+                                                    : "100%",
+                                                transition: "1s ease",
+                                            }}
+                                        >
+                                            <div>my story.</div>
+                                            <div style={{ height: "2vw" }}>
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    fill="none"
+                                                    viewBox="0 0 24 24"
+                                                    strokeWidth={1}
+                                                    stroke="currentColor"
+                                                    className="w-6 h-6"
+                                                    style={{
+                                                        height: "100%",
+                                                    }}
+                                                >
+                                                    <path
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
+                                                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                                    />
+                                                </svg>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                                 <div
                                     style={{
@@ -1285,7 +1296,6 @@ function MobileHome() {
                                 />
                             </div>
                         </div>
-
                         <div
                             style={{
                                 display: "flex",
@@ -1297,125 +1307,130 @@ function MobileHome() {
                                 paddingTop: "20vw",
                             }}
                         >
-                            <div
-                                style={{
-                                    display: "flex",
-                                    width: "100%",
-                                    flexDirection: "row",
-                                    background: "#FF4C41",
-                                    justifyContent: "center",
-                                    // paddingBlock: "1.4vw",
-                                    // paddingInline: "1.4vw",
-                                    gap: "0.4vw",
-                                    alignItems: "center",
-                                    fontFamily: "Share Tech Mono",
-                                    fontSize: "5vw",
-                                    // background: "#fff",
-                                    // boxShadow: '4px 4px 0px 0px #FF4C41',
-                                    color: "black",
-                                    background: "#30ffa1",
-                                    // transform: preLoaded
-                                    //     ? "translateY(-100vh)"
-                                    //     : "translateY(0)",
-                                    // opacity: preLoaded
-                                    // ? "0%"
-                                    // : "100%",
-                                    // transition: `3s ease`,
-                                    // transitionDelay: `${d}s`,
-                                    opacity: preLoaded ? "0%" : "100%",
-                                    transition: "1s ease",
-                                }}
-                            >
+                            <Link href={"/services"}>
                                 <div
-                                    style={
-                                        {
-                                            // textOrientation: "upright",
-                                            // writingMode: "vertical-rl",
-                                        }
-                                    }
+                                    style={{
+                                        display: "flex",
+                                        width: "100%",
+                                        flexDirection: "row",
+                                        background: "#FF4C41",
+                                        justifyContent: "center",
+                                        // paddingBlock: "1.4vw",
+                                        // paddingInline: "1.4vw",
+                                        gap: "0.4vw",
+                                        alignItems: "center",
+                                        fontFamily: "Share Tech Mono",
+                                        fontSize: "5vw",
+                                        // background: "#fff",
+                                        // boxShadow: '4px 4px 0px 0px #FF4C41',
+                                        color: "black",
+                                        background: "#30ffa1",
+                                        // transform: preLoaded
+                                        //     ? "translateY(-100vh)"
+                                        //     : "translateY(0)",
+                                        // opacity: preLoaded
+                                        // ? "0%"
+                                        // : "100%",
+                                        // transition: `3s ease`,
+                                        // transitionDelay: `${d}s`,
+                                        opacity: preLoaded ? "0%" : "100%",
+                                        transition: "1s ease",
+                                    }}
                                 >
-                                    my story
-                                </div>
-                                <div style={{ height: "10vw" }}>
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth={1}
-                                        stroke="currentColor"
-                                        className="w-6 h-6"
-                                        style={{
-                                            height: "100%",
-                                        }}
+                                    <div
+                                        style={
+                                            {
+                                                // textOrientation: "upright",
+                                                // writingMode: "vertical-rl",
+                                            }
+                                        }
                                     >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                                        />
-                                    </svg>
+                                        book me
+                                    </div>
+                                    <div style={{ height: "10vw" }}>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            strokeWidth={1}
+                                            stroke="currentColor"
+                                            className="w-6 h-6"
+                                            style={{
+                                                height: "100%",
+                                            }}
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                            />
+                                        </svg>
+                                    </div>
                                 </div>
-                            </div>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    flexDirection: "row",
-                                    width: "100%",
-                                    background: "#FF4C41",
-                                    justifyContent: "center",
-                                    // paddingBlock: "1.4vw",
-                                    // paddingInline: "1.4vw",
-                                    gap: "0.4vw",
-                                    alignItems: "center",
-                                    fontFamily: "Share Tech Mono",
-                                    fontSize: "5vw",
-                                    // background: "#fff",
-                                    // boxShadow: '4px 4px 0px 0px #FF4C41',
-                                    color: "black",
-                                    background: "#30ffa1",
-                                    // transform: preLoaded
-                                    //     ? "translateY(-100vh)"
-                                    //     : "translateY(0)",
-                                    // opacity: preLoaded
-                                    // ? "0%"
-                                    // : "100%",
-                                    // transition: `3s ease`,
-                                    // transitionDelay: `${d}s`,
-                                    opacity: preLoaded ? "0%" : "100%",
-                                    transition: "1s ease",
-                                }}
-                            >
+                            </Link>
+                            <Link href={"/services"}>
                                 <div
-                                    style={
-                                        {
-                                            // textOrientation: "upright",
-                                            // writingMode: "vertical-rl",
-                                        }
-                                    }
+                                    style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                        width: "100%",
+                                        background: "#FF4C41",
+                                        justifyContent: "center",
+                                        // paddingBlock: "1.4vw",
+                                        // paddingInline: "1.4vw",
+                                        gap: "0.4vw",
+                                        alignItems: "center",
+                                        fontFamily: "Share Tech Mono",
+                                        fontSize: "5vw",
+                                        // background: "#fff",
+                                        // boxShadow: '4px 4px 0px 0px #FF4C41',
+                                        color: "black",
+                                        background: "#30ffa1",
+                                        // transform: preLoaded
+                                        //     ? "translateY(-100vh)"
+                                        //     : "translateY(0)",
+                                        // opacity: preLoaded
+                                        // ? "0%"
+                                        // : "100%",
+                                        // transition: `3s ease`,
+                                        // transitionDelay: `${d}s`,
+                                        opacity: preLoaded ? "0%" : "100%",
+                                        transition: "1s ease",
+                                    }}
                                 >
-                                    my story
-                                </div>
-                                <div style={{ height: "10vw" }}>
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        strokeWidth={1}
-                                        stroke="currentColor"
-                                        className="w-6 h-6"
-                                        style={{
-                                            height: "100%",
-                                        }}
+                                    <div
+                                        style={
+                                            {
+                                                // textOrientation: "upright",
+                                                // writingMode: "vertical-rl",
+                                            }
+                                        }
                                     >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                                        />
-                                    </svg>
+                                        my story
+                                    </div>
+                                    <div style={{ height: "10vw" }}>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            strokeWidth={1}
+                                            stroke="currentColor"
+                                            className="w-6 h-6"
+                                            style={{
+                                                height: "100%",
+                                            }}
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                            />
+                                        </svg>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
+
                         <div
                             style={{
                                 display: "flex",
@@ -1734,7 +1749,7 @@ function LocationCard({ abr, loc, href, delay, preLoaded }) {
                             alt="test"
                             layout="fill"
                             objectFit="cover"
-                            sizes="50vw"
+                            sizes="60vw"
                             priority
                             style={{
                                 mixBlendMode: "lighten",
@@ -1850,7 +1865,6 @@ function PhotoCard({ name, index, href, color, isDark, preLoaded }) {
             <div
                 className="show-in-mobile"
                 style={{
-                    display: "flex",
                     flexDirection: "row",
                     zIndex: 1,
                     border: "1px solid #5B5B5B",
